@@ -44,6 +44,7 @@ services:
       - ethereum_default
       - gnosis_default
       - litecoin_default
+      - mayachain_default
       - optimism_default
       - polygon_default
       - thorchain_default
@@ -79,6 +80,8 @@ networks:
     name: gnosis_default
   litecoin_default:
     name: litecoin_default
+  mayachain_default:
+    name: mayachain_default
   optimism_default:
     name: optimism_default
   polygon_default:
